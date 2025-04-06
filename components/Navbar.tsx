@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex flex-row justify-between h-14">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-white font-bold text-xl" onClick={() => setIsOpen(false)}>
-              Zola Direct
+              Zolu Direct
             </Link>
           </div>
 
