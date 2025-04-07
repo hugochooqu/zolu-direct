@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -13,7 +14,7 @@ const Navbar = () => {
         <div className="flex flex-row justify-between h-14">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-white font-bold text-xl" onClick={() => setIsOpen(false)}>
-              Zolu Direct
+              <Image src='/zoluLogo.png' alt='zolu logo' width={200} height={200} />
             </Link>
           </div>
 
