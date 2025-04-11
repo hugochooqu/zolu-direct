@@ -8,33 +8,33 @@ import { GiFarmer } from "react-icons/gi";
 const page = () => {
   return (
     <>
-      <div className="relative w-full h-auto lg:h-screen bg-cover bg-center text-white bg-[url(/bg.jpg)]">
-        <div className="absolute inset-0 bg-black/60 z-0"></div>
-        <Navbar />
-        <div className="relative z-10 px-8 py-24 flex flex-col gap-6  ">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
-            Introducing Zolu Direct :<br /> Revolutionizing Agro-Commerce
-          </h1>
-          <h2 className="text-4xl text-gray-200 animate-pulse">Coming soon!</h2>
-          <div className="flex flex-col gap-4">
-            <p className="text-lg ">
-              Join our waitlist to be the first to know when we launch!
-            </p>
-            <div className="flex flex-row gap-3">
-              <input
-                type="email"
-                placeholder="Enter your Email address"
-                className="p-2 border w-full max-w-sm"
-                // value={searchTerm}
-                // onChange={(e) => setSearchTerm(e.target.value)}
-              />
-              <button className="max-w-sm bg-green-700 w-auto px-8 ">
-                Join Waitlist
-              </button>
-            </div>
-          </div>
+  <div className="relative w-full h-auto lg:h-screen bg-cover bg-center text-white bg-[url(/bg.jpg)]">
+    <div className="absolute inset-0 bg-black/60 z-0"></div>
+    <Navbar />
+    <div className="relative z-10 px-8 py-24 flex flex-col gap-6  ">
+      <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
+        Introducing Zolu Direct :<br /> Revolutionizing Agro-Commerce
+      </h1>
+      <h2 className="text-4xl text-gray-200 animate-pulse">Coming soon!</h2>
+      <div className="flex flex-col gap-4">
+        <p className="text-lg ">
+          Join our waitlist to be the first to know when we launch!
+        </p>
+        <div className="flex flex-row gap-3">
+          <input
+            type="email"
+            placeholder="Enter your Email address"
+            className="p-2 border w-full max-w-sm"
+            // value={searchTerm}
+            // onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <button className="max-w-sm bg-green-700 w-auto px-8 ">
+            Join Waitlist
+          </button>
         </div>
       </div>
+    </div>
+  </div>
 
       {/* About section */}
       <div className="bg-green-800 w-full h-auto">

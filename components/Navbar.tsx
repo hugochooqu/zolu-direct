@@ -9,10 +9,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="relative left-0 top-0 bg-transparent transition all  z-50">
+    <nav className="relative left-0 top-0 bg-gray-500 transition all  z-50">
       <div className=" mx-auto px-8 ">
         <div className="flex flex-row justify-between h-14">
-          <div className="flex-shrink-0 flex items-center">
+          <div className="flex-shrink-0 flex items-center ">
             <Link href="/" className="text-white font-bold text-xl" onClick={() => setIsOpen(false)}>
               <Image src='/zoluLogo.png' alt='zolu logo' width={200} height={200} />
             </Link>
@@ -52,6 +52,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex md:items-center md:space-x-6 text-lg font-medium ">
+            <Link href='/partners'>Partner</Link>
           <button className="bg-green-700 w-auto px-8 py-1 text-base max-w-sm">Join Waitlist</button>
             
           </div>
@@ -64,7 +65,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="lg:hidden absolute z-10 bg-white h-screen w-full">
           <div className="px-8 pt-2 pb-3 space-y-1 sm:px-3 gap-3 flex flex-col">
-            
+          <Link href='/partners'>Partner</Link>
           <button className="bg-green-700 w-auto px-8 py-1 text-base max-w-sm">Join Waitlist</button>
            
           </div>
