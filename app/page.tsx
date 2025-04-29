@@ -11,11 +11,10 @@ const page = () => {
   <div className="relative w-full h-auto lg:h-screen bg-cover bg-center text-white bg-[url(/bg.jpg)]">
     <div className="absolute inset-0 bg-black/60 z-0"></div>
     <Navbar />
-    <div className="relative z-10 px-8 py-24 flex flex-col gap-6  ">
+    <div className="relative z-10 px-8 py-36 flex flex-col gap-6  ">
       <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
         Introducing Zolu Direct :<br /> Revolutionizing Agro-Commerce
       </h1>
-      <h2 className="text-4xl text-gray-200 animate-pulse">Coming soon!</h2>
       <div className="flex flex-col gap-4">
         <p className="text-lg ">
           Join our waitlist to be the first to know when we launch!
@@ -38,11 +37,8 @@ const page = () => {
 
       {/* About section */}
       <div className="bg-green-800 w-full h-auto">
-        <p className="lg:text-center text-2xl py-24 px-8 lg:px-[25%] text-white">
-          Zolu Direct is an innovative agro-commerce platform that connects
-          farmers, vendors, and buyers seamlessly. Our AI-powered marketplace
-          ensures efficient transactions, quality assurance, and timely
-          delivery.
+        <p className="lg:text-center text-2xl py-24 px-8 lg:px-[20%] text-white leading-snug ">
+          Zolu Direct brings the feel of the local market to your phone. We connect farmers, sellers, and buyers in one easy-to use-platform. From fresh farm produce to processed foods and livestock, everything you need is just a click away. And with our unique chat feature, you can bargain just like you would in person. No stress, no overcrowded markets, just fresh, fast, and reliable shopping delivered to your doorstep.
         </p>
       </div>
 
