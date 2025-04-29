@@ -64,8 +64,8 @@ const Navbar = () => {
       {/* Mobile Navigation Links */}
       {isOpen && (
         <div className="lg:hidden absolute z-10 bg-white h-screen w-full">
-          <div className="px-8 pt-2 pb-3 space-y-1 sm:px-3 gap-3 flex flex-col">
-          <Link href='/partners'>Partner</Link>
+          <div className="px-8 pt-2 pb-3 space-y-1 sm:px-3 gap-3 flex flex-col text-black">
+          <Link href='/partners' onClick={() => setIsOpen(!isOpen)}>Partner</Link>
           <button className="bg-green-700 w-auto px-8 py-1 text-base max-w-sm">Join Waitlist</button>
            
           </div>
